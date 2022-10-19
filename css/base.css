@@ -130,36 +130,43 @@ ul {
 
 @font-face {
   font-family: "RobotoR";
+  font-display: auto;
   src: url("../font/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "RobotoB";
+  font-display: auto;
   src: url("../font/Roboto-Bold.ttf");
 }
 
 @font-face {
   font-family: "RobotoM";
+  font-display: auto;
   src: url("../font/Roboto-Medium.ttf");
 }
 
 @font-face {
   font-family: "RobotoI";
+  font-display: auto;
   src: url("../font/Roboto-Italic.ttf");
 }
 
 @font-face {
   font-family: "LibreBaskervilleR";
+  font-display: auto;
   src: url("../font/LibreBaskerville-Regular.ttf");
 }
 
 @font-face {
   font-family: "LibreBaskervilleB";
+  font-display: auto;
   src: url("../font/LibreBaskerville-Bold.ttf");
 }
 
 @font-face {
   font-family: "LibreBaskervilleI";
+  font-display: auto;
   src: url("../font/LibreBaskerville-Italic.ttf");
 }
 
@@ -537,7 +544,13 @@ ul {
 .progress-filled {
   width: 0;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#f28cff), to(#c796cc));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f28cff),
+    to(#c796cc)
+  );
   background-image: -o-linear-gradient(left, #f28cff, #c796cc);
   background-image: linear-gradient(to right, #f28cff, #c796cc);
 }
@@ -667,8 +680,7 @@ ul {
   font-size: 15px;
 }
 
-@supports (-webkit-appearance:none) {
-
+@supports (-webkit-appearance: none) {
 }
 
 @media (max-width: 1030px) {
@@ -700,9 +712,8 @@ ul {
     flex: 40% 0 0;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 990px) {
@@ -710,9 +721,8 @@ ul {
     max-width: 100%;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 860px) {
@@ -729,9 +739,8 @@ ul {
     margin-bottom: 40px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 830px) {
@@ -756,9 +765,8 @@ ul {
     transform: translate(-30%, -50%);
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 700px) {
@@ -796,9 +804,8 @@ ul {
     transform: translate(120px, 53px) rotateZ(-18deg);
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 620px) {
@@ -827,9 +834,8 @@ ul {
     font-size: 16px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 475px) {
@@ -855,9 +861,8 @@ ul {
     margin-bottom: 40px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 450px) {
@@ -918,9 +923,8 @@ ul {
     display: block;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 430px) {
@@ -956,9 +960,8 @@ ul {
     z-index: 3;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 360px) {
@@ -966,9 +969,8 @@ ul {
     min-height: 416px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 320px) {
@@ -984,9 +986,8 @@ ul {
     font-size: 35px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 304px) {
@@ -996,9 +997,8 @@ ul {
     justify-content: center;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
 
 @media (max-width: 300px) {
@@ -1011,7 +1011,6 @@ ul {
     font-size: 14px;
   }
 
-@supports (-webkit-appearance:none) {
-
-}
+  @supports (-webkit-appearance: none) {
+  }
 }
