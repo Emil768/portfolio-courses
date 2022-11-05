@@ -75,7 +75,7 @@ ul {
 
 .about__text p {
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -101,7 +101,6 @@ ul {
 .about__certificates-left,
 .about__certificates-center,
 .about__certificates-right {
-  width: 500px;
   position: absolute;
 }
 
@@ -112,11 +111,13 @@ ul {
 .about__certificates-left {
   left: 0;
   z-index: 2;
+  width: 300px;
 }
 
 .about__certificates-center {
-  top: 50%;
-  left: 50%;
+  top: 47%;
+  left: 45%;
+  width: 622px;
   -webkit-transform: translate(-50%, -50%) !important;
   -ms-transform: translate(-50%, -50%) !important;
   transform: translate(-50%, -50%) !important;
@@ -126,6 +127,7 @@ ul {
 .about__certificates-right {
   right: 0;
   z-index: 2;
+  width: 450px;
 }
 
 @font-face {
@@ -680,12 +682,6 @@ ul {
     font-size: 20px;
   }
 
-  .about__certificates-left,
-  .about__certificates-center,
-  .about__certificates-right {
-    width: 400px;
-  }
-
   .programs__block-title {
     font-size: 30px;
   }
@@ -743,17 +739,20 @@ ul {
     min-height: 360px;
   }
 
-  .about__certificates-left,
-  .about__certificates-center,
-  .about__certificates-right {
-    width: 300px;
+  .about__certificates-left {
+    width: 200px;
   }
 
   .about__certificates-center {
+    width: 350px;
     top: 50%;
     -webkit-transform: translate(-30%, -50%);
     -ms-transform: translate(-30%, -50%);
     transform: translate(-30%, -50%);
+  }
+
+  .about__certificates-right {
+    width: 325px;
   }
 
 @supports (-webkit-appearance:none) {
@@ -813,10 +812,13 @@ ul {
     flex-direction: column;
   }
 
-  .about__certificates-left,
+  .about__certificates-left {
+    width: 160px;
+  }
+
   .about__certificates-center,
   .about__certificates-right {
-    width: 200px;
+    width: 288px;
   }
 
   .programs__block-title {
@@ -952,7 +954,7 @@ ul {
   }
 
   .about__certificates-right {
-    top: 30%;
+    top: 42%;
     z-index: 3;
   }
 
